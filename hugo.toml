@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+favicon = 'logo.png'
+title = 'My New Hugo Site'
+theme = 'stack'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = "I'm kragleh"
+    weight = 2
+    [languages.en.params]
+      subtitle = 'Yes, No, Maybe'
+  [languages.sk]
+    contentDir = 'content/sk'
+    disabled = false
+    languageCode = 'sk'
+    languageDirection = 'ltr'
+    languageName = 'Slovak'
+    title = 'Ja som kragleh'
+    weight = 1
+    [languages.sk.params]
+      subtitle = 'Ano, Nie, Mozno'
